@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: cornflowerblue;
+    margin-top: 65px;
+}
+
+#number-filds{
+    background-color: rgb(125, 166, 255);
+    box-shadow: inset -1px 1px 5px -1px;  
+    padding: 10px;
+}
+
+#number-filds input{
+    padding: 12px;
+    font-size: 13;
+}
+
+#number-filds button{
+    padding: 13px;
+    background-color: green;
+    color: white;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+#table-box{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    /* background-color: rgb(252, 194, 252); */
+    padding: 15px;
+}
+
+#design-box{
+    /* background-color: blueviolet; */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#table-box table tbody tr td{
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
