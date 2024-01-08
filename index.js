@@ -17,8 +17,18 @@ function generateTable(event) {
 
             let cell = row.insertCell();
 
-            cell.textContent = `${table} x ${i} = ${table * i}`;
+            cell.textContent = ` ${table} x ${i} = ${table * i}`;
         }
         document.getElementById('table-box').appendChild(tableElement);
     }
+
+    if (!table || !howMuchTable) {
+        // console.log('Please select')
+        let Element = document.createElement('h1');
+        console.log('Please fill the given input fields');
+        // let h1 = document.querySelector('h1');
+
+        document.getElementById('table-box').appendChild(Element);
+    }
+
 }

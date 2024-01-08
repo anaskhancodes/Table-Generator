@@ -19,10 +19,16 @@ body{
 #number-filds button{
     padding: 13px;
     background-color: green;
+    box-shadow: 0 5px 0 rgb(0, 80, 0);
     color: white;
     font-weight: 500;
     border: none;
     cursor: pointer;
+}
+
+#number-filds button:active {
+    box-shadow: none;
+    transform: translatey(5px);
 }
 
 #table-box{
@@ -45,4 +51,37 @@ body{
     padding: 15px;
     border-radius: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media only screen and (max-width: 425px) {
+    #number-filds input{
+        width: 116px;
+    }
+
+    span{
+        font-size: 25px;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+    #number-filds input{
+        width: 96px;
+    }
+
+    span{
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    #number-filds input{
+        width: 69px;
+    }
+
+    span{
+        font-size: 18px;
+    }
+
 }
